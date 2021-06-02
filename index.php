@@ -18,16 +18,14 @@
 		<title>電子薄膜實驗室</title>
 	</head>
 	<body>
-		<div class="header">
-			<div class="row" style="height:5px; background-color:#CC0000;"></div>
-			<div class="container" style="width:1200px;max-width:1200px;min-width:1200px;">
-				<?php include('_header.php'); ?>
-				<?php include('_nav.php'); ?>
-			</div>
+		<div class="row red-line"></div>
+		<div class="container-hao">
+			<?php include('_header.php'); ?>
+			<?php include('_nav.php'); ?>
 		</div>
-		<div class="row" style="height:1850px; background-image:url(images/background60.jpg);">
-			<div class="container">
-				<div class="container">					
+		<div class="row bgImg">
+			<div class="container-hao">
+				<div class="content">			
 					<?php 
 						switch($page){  
 							case "home";
@@ -49,7 +47,7 @@
 								include('life.php');
 								break;
 						}
-					?>					
+					?>
 				</div>
 			</div>
 		</div>
