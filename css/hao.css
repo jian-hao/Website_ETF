@@ -1,15 +1,15 @@
 
 .bgImg{
-	/*background-image: url(images/background60.jpg);*/
+	/*background-image: url(images/background60.jpg);
 	background-image: url(http://127.0.0.1/Website_ETF/images/background60.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .container-hao{
-	width: 1200px;
+	width: 1600px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -17,12 +17,60 @@
 
 .content{
 	background-color: rgba(255, 255, 255, 1);
-	width: 1200px;
-	margin: 50px;
-	padding: 50px;
+	width: 1600px;
+	margin: 0px;
+	padding: 50px 0px;
 }
 
 .red-line{
 	background-color: #CC0000;
 	height: 5px; 
+}
+
+
+/*------ Member 翻轉圖片 ------*/
+.allbrand .brand {
+	overflow: hidden;
+	width: 1600px;
+	height: 5000px;
+	margin: 20px;
+}
+.allbrand .brand ul {
+	position: relative;
+	float: left;
+	width: 399px;
+	height: 500px;
+	margin: 0px;
+	color: #fff;
+	line-height: 70px;
+	text-align: center;
+}
+.allbrand .brand ul img {
+	position: absolute;
+	left: 0px;
+	width: 350px;
+	height: 467px;
+}
+.allbrand .brand ul em {
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 175px;
+	width: 0px;
+	height: 467px;
+	border: 1px solid #e9e8e8;
+	background: #333333;
+	color: #EEEEEE;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 30px;
+	border-radius:20px;
+	opacity: 0.8;
+}
+
+.text p{
+	font-size: 60px;
+	font-weight: bold; 
+	text-decoration:underline;
 }
