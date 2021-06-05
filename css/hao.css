@@ -9,6 +9,14 @@
 	background-position: center;
 	background-size: cover;*/
 }
+.instrument{
+        height: 600px;
+}
+
+.bottom_hao {
+        position: sticky;
+        bottom: 0px;
+}
 
 .container-hao{
 	width: 1600px;
@@ -28,6 +36,8 @@
 	background-color: #CC0000;
 	height: 5px; 
 }
+
+
 
 /*------ research 翻轉圖片 ------*/
 .allresearch .research {
@@ -279,24 +289,7 @@
          transform: rotateY(-180deg);
  -webkit-transform-style: preserve-3d;
          transform-style: preserve-3d;
-}/*
-.front .inner p{
- font-size: 2rem;
- margin-bottom: 2rem;
- position: relative;
 }
-.front .inner p:after{
- content: '';
- width: 4rem;
- height: 2px;
- position: absolute;
- background: #C6D4DF;
- display: block;
- left: 0;
- right: 0;
- margin: 0 auto;
- bottom: -.75rem;
-}*/
 .front .inner span{
  color: rgba(255,255,255,0.7);
  font-family: 'Montserrat';
@@ -364,8 +357,8 @@
 }
 .main .card .cardTop .viewImg {
         position:relative;
-        width:150px;
-        height:150px;
+        width:200px;
+        height:200px;
         border-radius:50%;
         overflow:hidden;
         border:10px solid rgba(0,0,0,0.3);
@@ -421,4 +414,98 @@
 }
 .main .card .cardBtm li a {
         text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 550px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img{
+  height: 500px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,200,200,0.5);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 50px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 50px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.act{
+  background-color: #444;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
