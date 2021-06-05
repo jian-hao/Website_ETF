@@ -1,28 +1,17 @@
-<!--
-<img src="images/choose.png" style="width: 1560px;"/> 
-	<div class="choose">
 
-		<a href=<?php echo "{$_SERVER['PHP_SELF']}?page=member&class=student" ?>>
-			<img src="images/orange.png"/> 
-		</a>
-		<a href=<?php echo "{$_SERVER['PHP_SELF']}?page=member&class=graduate" ?>>
-			<img src="images/green.png"/>
-		</a>
-	</div>
--->
-<div style="background-image:url(images/choose.png); background-size:1560px; height:1000px">
+<div style="background-image:url(images/choose.png);background-repeat: no-repeat; background-size:1560px; height:800px">
 	<div class="main">			
 		<div class="card">
 			<div class="cardTop">
 				<a href=<?php echo "{$_SERVER['PHP_SELF']}?page=member&class=student" ?>>	
 					<div class="viewImg">
-						<img src="https://www.jq22.com/img/cs/500x500-2.png" alt="">
+						<img src="images/student.png" alt="">
 					</div>
 				</a>
 				<div class="viewText">
 					<h3>
 						在校生<br>
-						<span>Electronic Thin Film LAB</span>
+						<span>Master&Ph.D.</span>
 					</h3>
 
 				</div>
@@ -47,13 +36,13 @@
 			<div class="cardTop">
 				<a href=<?php echo "{$_SERVER['PHP_SELF']}?page=member&class=graduate" ?>>
 					<div class="viewImg">
-						<img src="https://www.jq22.com/img/cs/500x500-2.png" alt="">
+						<img src="images/graduate.png" >
 					</div>
 				</a>
 				<div class="viewText">
 					<h3>
 						畢業生<br>
-						<span>Electronic Thin Film LAB</span>
+						<span>Graduates</span>
 					</h3>
 
 				</div>
