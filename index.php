@@ -14,19 +14,24 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/hao.css">
 
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
 		<link rel="icon" href="images/favicon.ico">
 		<title>電子薄膜實驗室</title>
 	</head>
+
+
 	<body>
-		<div class="row red-line"></div>
 		<div class="container-hao">
 			<?php include('_header.php'); ?>
 			<?php include('_nav.php'); ?>
 		</div>
-		<div class="row bgImg">
+		<div class="row">
 			<div class="container-hao">
 				<div class="content">			
 					<?php 
+						include('_breadcrumb.php');
 						switch($page){  
 							case "home";
 								include('home.php');
