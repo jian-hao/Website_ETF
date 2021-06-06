@@ -1,7 +1,6 @@
 <!-- class="fixed-bottom" 固定頁底-->
 <div class="row"> 
-<div class="bottom_hao" style="background-color:#FF8000;">
-
+	<div class="bottom_hao">
 		<div class="row justify-content-center" style="padding:20px;">
 			<div class="col-3">
 			</div>
@@ -21,7 +20,5 @@
 				版權所有©國立中央大學化學工程與材料工程學系 電子薄膜實驗室
 			</div>
 		</div>
-
-
-	<div class="row" style="height:5px; background-color:#CC0000;"></div>
+	<div class="row red-line"></div>
 </div></div>
