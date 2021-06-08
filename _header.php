@@ -1,4 +1,4 @@
-<div class="row align-items-center" style="padding:20px;">
+<div class="row" style="padding:20px;">
 	<div class="col-3 ETFlogo">
 		<a href="index.php"><img src="images/logo.jpg" class="img-fluid"></a>
 	</div>

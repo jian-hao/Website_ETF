@@ -14,9 +14,13 @@
 }
 
 .bottom_hao {
+        width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #FFF;
         position: sticky;
         bottom: 0px;
-        background-color: #94A7AE;
+        background-color: #072A40;
 }
 
 .container-hao{
