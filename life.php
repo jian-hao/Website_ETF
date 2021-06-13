@@ -1,9 +1,4 @@
 <?php
-	$con = mysqli_connect("localhost", "jianhao", "pass574f5244", "armydb");
-	$sql = 'SELECT * FROM `upload_data`';
-	$rows = mysqli_query($con, $sql); 
-
-
 	$photo = array(
 					array('2014', '實驗室出遊', '20140813_實驗室出遊_1.jpg'),
 					array('2014', '實驗室出遊', '20140813_實驗室出遊_2.jpg'),
