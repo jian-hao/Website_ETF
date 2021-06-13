@@ -1,21 +1,34 @@
 <?php
 	$memberData = array(
-		array('a.jpg', '先.png', '設備Ａ的說明區'),
-		array('b.jpg', '先.png', '設備Ｂ的說明區'),
-		array('c.jpg', '先.png', '設備Ｃ的說明區'),
-		array('c.jpg', '先.png', '設備Ｄ的說明區'));
-	for ( $i=0 ; $i<ceil(count($memberData)/4) ; $i++ ) {
+		array('IMG_1.jpg', '', ''),
+		array('IMG_2.jpg', '', ''),
+		array('IMG_3.jpg', '', ''),
+		array('IMG_4.jpg', '', ''),
+		array('IMG_5.jpg', '', ''),
+		array('IMG_6.jpg', '', ''),
+		array('IMG_7.jpg', '', ''),
+		array('IMG_8.jpg', '', ''),
+		array('IMG_9.jpg', '', ''),
+		array('IMG_10.jpg', '', ''),
+		array('IMG_11.jpg', '', ''),
+		array('IMG_12.jpg', '', ''),
+		array('IMG_13.jpg', '', ''),
+		array('IMG_14.jpg', '', ''),
+		array('IMG_15.jpg', '', ''),
+		array('IMG_16.jpg', '', ''),
+		array('IMG_17.jpg', '', ''),
+		array('IMG_18.jpg', '', ''),
+		array('IMG_19.jpg', '', ''),
+		array('IMG_20.jpg', '', ''),
+		array('IMG_21.jpg', '', ''),
+		array('IMG_22.jpg', '', ''),
+		array('IMG_23.jpg', '', ''),
+		array('IMG_24.jpg', '', ''));
 
+	for ( $i=0 ; $i<ceil(count($memberData)/4) ; $i++ ) {
 		for ( $j=0 ; $j<4 ; $j++ ) {
 			echo '<img class="imImg" src="images/instrument/'.$memberData[$i*2+$j][0].'">';
 		}
-		echo '<div class="allinstrument">';
-		echo '<div class="instrument">';
-		for ( $j=0 ; $j<4 ; $j++ ) {	
-			echo '<ul><img alt="'.$memberData[$i*2+$j][2].'" src="images/instrument/'.$memberData[$i*2+$j][1].'" /></ul>';
-		}
-		echo '</div>';
-		echo '</div>';
 	}
 ?>
 
